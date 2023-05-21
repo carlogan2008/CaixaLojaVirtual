@@ -1,0 +1,57 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.6.33712.159
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Services", "Services", "{6F09BE54-0AD3-4D7D-913B-4A2308F413C1}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Core", "Core", "{FA7A25FE-CE45-40A7-9A62-DB4265223963}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Pagamentos", "Pagamentos", "{468A1EDA-2C3C-40E6-B6AB-AE52BAF75111}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CaixaLojaVirtual.Core", "CaixaLojaVirtual.Core\CaixaLojaVirtual.Core.csproj", "{E6E21C33-8617-42E4-91B8-A11D14E63D1F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CaixaLojaVirtual.Pagamentos.Application", "CaixaLojaVirtual.Pagamentos.Application\CaixaLojaVirtual.Pagamentos.Application.csproj", "{0DE1EFA2-D20D-4689-BDBD-7D5297A44F67}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CaixaLojaVirtual.Pagamentos.Data", "CaixaLojaVirtual.Pagamentos.Data\CaixaLojaVirtual.Pagamentos.Data.csproj", "{63FCC83E-3F88-4341-AD52-D54C80F00823}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CaixaLojaVirtual.Pagamentos.Domain", "CaixaLojaVirtual.Pagamentos.Domain\CaixaLojaVirtual.Pagamentos.Domain.csproj", "{977856E3-FE4F-41B9-9A00-A96181EC95BA}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E6E21C33-8617-42E4-91B8-A11D14E63D1F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E6E21C33-8617-42E4-91B8-A11D14E63D1F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E6E21C33-8617-42E4-91B8-A11D14E63D1F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E6E21C33-8617-42E4-91B8-A11D14E63D1F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0DE1EFA2-D20D-4689-BDBD-7D5297A44F67}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0DE1EFA2-D20D-4689-BDBD-7D5297A44F67}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0DE1EFA2-D20D-4689-BDBD-7D5297A44F67}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0DE1EFA2-D20D-4689-BDBD-7D5297A44F67}.Release|Any CPU.Build.0 = Release|Any CPU
+		{63FCC83E-3F88-4341-AD52-D54C80F00823}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{63FCC83E-3F88-4341-AD52-D54C80F00823}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{63FCC83E-3F88-4341-AD52-D54C80F00823}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{63FCC83E-3F88-4341-AD52-D54C80F00823}.Release|Any CPU.Build.0 = Release|Any CPU
+		{977856E3-FE4F-41B9-9A00-A96181EC95BA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{977856E3-FE4F-41B9-9A00-A96181EC95BA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{977856E3-FE4F-41B9-9A00-A96181EC95BA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{977856E3-FE4F-41B9-9A00-A96181EC95BA}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{FA7A25FE-CE45-40A7-9A62-DB4265223963} = {6F09BE54-0AD3-4D7D-913B-4A2308F413C1}
+		{468A1EDA-2C3C-40E6-B6AB-AE52BAF75111} = {6F09BE54-0AD3-4D7D-913B-4A2308F413C1}
+		{E6E21C33-8617-42E4-91B8-A11D14E63D1F} = {FA7A25FE-CE45-40A7-9A62-DB4265223963}
+		{0DE1EFA2-D20D-4689-BDBD-7D5297A44F67} = {468A1EDA-2C3C-40E6-B6AB-AE52BAF75111}
+		{63FCC83E-3F88-4341-AD52-D54C80F00823} = {468A1EDA-2C3C-40E6-B6AB-AE52BAF75111}
+		{977856E3-FE4F-41B9-9A00-A96181EC95BA} = {468A1EDA-2C3C-40E6-B6AB-AE52BAF75111}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {BEF3BEC5-F4F3-4AD2-BADC-5B25A6E9A334}
+	EndGlobalSection
+EndGlobal
