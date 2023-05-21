@@ -9,13 +9,15 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Core", "Core", "{FA7A25FE-C
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Pagamentos", "Pagamentos", "{468A1EDA-2C3C-40E6-B6AB-AE52BAF75111}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CaixaLojaVirtual.Core", "CaixaLojaVirtual.Core\CaixaLojaVirtual.Core.csproj", "{E6E21C33-8617-42E4-91B8-A11D14E63D1F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CaixaLojaVirtual.Core", "CaixaLojaVirtual.Core\CaixaLojaVirtual.Core.csproj", "{E6E21C33-8617-42E4-91B8-A11D14E63D1F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CaixaLojaVirtual.Pagamentos.Application", "CaixaLojaVirtual.Pagamentos.Application\CaixaLojaVirtual.Pagamentos.Application.csproj", "{0DE1EFA2-D20D-4689-BDBD-7D5297A44F67}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CaixaLojaVirtual.Pagamentos.Application", "CaixaLojaVirtual.Pagamentos.Application\CaixaLojaVirtual.Pagamentos.Application.csproj", "{0DE1EFA2-D20D-4689-BDBD-7D5297A44F67}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CaixaLojaVirtual.Pagamentos.Data", "CaixaLojaVirtual.Pagamentos.Data\CaixaLojaVirtual.Pagamentos.Data.csproj", "{63FCC83E-3F88-4341-AD52-D54C80F00823}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CaixaLojaVirtual.Pagamentos.Data", "CaixaLojaVirtual.Pagamentos.Data\CaixaLojaVirtual.Pagamentos.Data.csproj", "{63FCC83E-3F88-4341-AD52-D54C80F00823}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CaixaLojaVirtual.Pagamentos.Domain", "CaixaLojaVirtual.Pagamentos.Domain\CaixaLojaVirtual.Pagamentos.Domain.csproj", "{977856E3-FE4F-41B9-9A00-A96181EC95BA}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CaixaLojaVirtual.Pagamentos.Domain", "CaixaLojaVirtual.Pagamentos.Domain\CaixaLojaVirtual.Pagamentos.Domain.csproj", "{977856E3-FE4F-41B9-9A00-A96181EC95BA}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "WebApps", "WebApps", "{FA95C969-648E-4E6B-AFA4-DDCEB2A11A4C}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
