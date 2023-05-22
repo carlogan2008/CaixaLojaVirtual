@@ -1,0 +1,25 @@
+version: '3.5'
+services:
+  CaixaLojaVirtual.database:
+    container_name: "CaixaLojaVirtual.database"
+    image: "mcr.microsoft.com/mssql/server:2019-latest"
+    ports:
+      - "8001:1433"
+    volumes:
+      - CaixaLojaVirtual.database:/var/opt/mssql
+    environment:
+      ACCEPT_EULA: "Y"
+      MSSQL_PID: "Developer"
+      SA_PASSWORD: "0^5N1eb8ll5@G!O22wnow#Vn@"
+    networks:
+      - CaixaLojaVirtual
+
+volumes:
+  CaixaLojaVirtual.database:
+    name: CaixaLojaVirtual.database
+    external: false
+
+networks:
+  CaixaLojaVirtual:
+    name: CaixaLojaVirtual
+    driver: bridge
